@@ -24,6 +24,6 @@ function maybeTrue() {
 function whileLoop(array) {
  while (n>=0) {
   array.pop()
- } whileLoop()
+ } whileLoop(array.length > 0 || maybeTrue())
  return 'false'
 }
