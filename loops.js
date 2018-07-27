@@ -11,14 +11,12 @@ function forLoop(array) {
 }
 function whileLoop(n) {
  while (n>=0) {
-  if (n===0) {
-    console.log('done');
-  }
-  else {
+  if (n!==0) {
     console.log(n);
   }
   n--;
  }
+ return done;
 }
 function maybeTrue() {
   return Math.random() >= 0.5
