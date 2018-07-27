@@ -21,4 +21,12 @@ function whileLoop(n) {
 function maybeTrue() {
   return Math.random() >= 0.5
 }
-
+function whileLoop(array) {
+ while (n>=0) {
+  if (n!==0) {
+    console.log(n);
+  }
+  n--;
+ }
+ return 'done';
+}
