@@ -19,11 +19,11 @@ function whileLoop(n) {
  return 'done';
 }
 function maybeTrue() {
-  return Math.random() >= 0.5
+  return Math.random() >= 0.5;
 }
 function dowhileLoop(array) {
  do {
-  array.pop()
- } while (array.length > 0 || maybeTrue())
- return 'false'
+  array.pop();
+ } while (array.length > 0 || maybeTrue());
+ return 'false';
 }
